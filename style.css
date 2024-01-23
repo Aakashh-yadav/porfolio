@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #ADD8E6;
+    font-family: 'Poppins', sans-serif;
+
+    /* color:rgb(239, 201, 130); */
+
+  }
+  nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background-image: linear-gradient( #00BFFF,#4169E1 	);
+    width: 100%;
+
+  }
+  .left{
+    font-size: 1.5rem;
+    
+  }
+  .left a{
+    text-decoration: none ;
+  }
+  nav ul{
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li{
+    list-style: none;
+    margin:0 23px  ;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  nav ul li a:hover{
+    color: blue;
+    font-size: 1.04rem;
+    
+  }
+  .firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 0;
+    
+    
+
+  }
+  .firstsection > div{
+    width: 40%;
+    
+
+  }
+  .leftsec{
+    font-size: 2.4rem;
+  }
+  .rightsec{
+    margin-top: -40px;
+  }
+  main hr{
+    border: 0;
+    background: #625be3;
+    height: 1.2px;
+    margin: 80px 84px;
+  }
+#element{
+  color: rgb(66, 48, 153);
+}
+.secoundsection{
+  max-width: 80vw;
+  margin: auto;
+  /* text-align: center; */
+  
+}
+.secoundsection h1{
+  font-size: 2rem;
+}
+.work-exp{
+  margin: 50px 0;
+}
+.w1-img{
+  float: left;
+}
+.w1-title{
+  float: left;
+  margin-left: 50px;
+}
+.w1{
+  height: 200px;
+  width: 100%;
+  display: flex;
+}
+
+.w1 .w1-1{
+  width: 80%;
+  height:auto;
+  /* background-color: black; */
+}
+
+  
+.w1 .w1-2{
+  width: 20%;
+  height:auto;
+  background-color: rgb(232, 170, 170);
+  
+}
+.w2{
+  height: 200px;
+  width: 100%;
+  display: flex;
+}
+.w2 .w2-1{
+  width: 20%;
+  height:auto;
+  background-color: black;
+}
+.w2 .w2-2{
+  width: 80%;
+  height:auto;
+  /* background-color: rgb(255, 255, 255); */
+  
+}
+.third-section{
+  max-width: 80vw;
+  margin: auto;
+}
+.third-section h1{
+  font-size: 2rem;
+}
+.third-section .p1{
+  background-color: black;
+  height: auto;
+  color: white;
+}
+.third-section .p2{
+  background-color: white;
+  height: auto;
+  color: black;
+}
+.third-section .p3{
+  background-color: black;
+  height: auto;
+  color: white;
+}
+.third-section .p4{
+  background-color: white;
+  height: auto;
+  color: black;
+}
+
+
+  

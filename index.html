@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Mono:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left"><a href="#" style="color: white">Portfolio</a></div>
+        <div class="right">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsec">
+          <div style="color: rgb(0, 64, 255)">
+            Hi My name is <span style="color: rgb(1, 1, 59)">Aakash</span>
+            <div>and i am a passionate</div>
+          </div>
+          <span id="element"></span>
+        </div>
+        <div class="rightsec">
+          <img src="img/hero image.png" alt="" height="500px" />
+        </div>
+      </section>
+      <hr />
+      <section class="secoundsection">
+        <h1 style="color: #4169e1; text-align: center">Work Experience</h1>
+        <div class="work-exp">
+          <!-- first internship octa net  -->
+          <div class="w1">
+            <div class="w1-1">
+              <img
+                class="w1-img"
+                src="img/code clause.png"
+                alt="Company's name"
+              />
+              <h2 class="w1-title">Web Developer Intern at Code Clause</h2>
+            </div>
+            <div class="w1-2"></div>
+          </div>
+          <!-- secound internship code clause -->
+          <div class="w2">
+            <div class="w2-1"></div>
+            <div class="w2-2">
+              <img
+                class="w1-img"
+                src="img/octanet.png"
+                alt=""
+                style="height: 50px"
+              />
+              <h2 class="w1-title">Web Developer Intern at Octanet</h2>
+            </div>
+          </div>
+          <!-- third internship intern pe -->
+          <div class="w1">
+            <div class="w1-1">
+              <img
+                class="w1-img"
+                src="img/internpe.png"
+                alt=""
+                style="height: 50px"
+              />
+              <h2 class="w1-title">web developmer intern at internpe</h2>
+            </div>
+            <div class="w1-2"></div>
+          </div>
+          <!-- forth internship -->
+          <div class="w2">
+            <div class="w2-1"></div>
+            <div class="w2-2">
+              <img
+                class="w1-img"
+                src="img/solitire infosys.png"
+                alt=""
+                style="height: 50px"
+              />
+              <h2 class="w1-title">Web designing & developer Trainee</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <!-- projects -->
+      <section class="third-section">
+        <h1 style="color: #4169e1; text-align: center">Projects</h1>
+        <div class="project-main">
+          <div class="p1">Project 1</div>
+          <div class="p2">project 2</div>
+          <div class="p3">project 3</div>
+          <div class="p4">project 4</div>
+        </div>
+      </section>
+      <!-- skills and services -->
+      <section class="forth-section">
+        <div class="skills">
+          <div class="skill1">skill1</div>
+          <div class="skill2">skill2</div>
+          <div class="skill3">skill3</div>
+          <div class="skill4">skill4</div>
+          <div class="skill5">skill5</div>
+          <div class="skill6">skill6</div>
+        </div>
+      </section>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web developer", "<i>UI</i> Designer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
